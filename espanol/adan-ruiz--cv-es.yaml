@@ -1,0 +1,131 @@
+cv:
+  name: "Adan Ruiz Villalobos"
+  headline: "Ingeniero de Soporte Técnico | Backend & DevOps | APIs REST, SQL, Linux, AWS"
+  location: "Ciudad de México / Monterrey, México — Disponibilidad de reubicación inmediata"
+  email: "adnruiz1@gmail.com"
+  phone: "494 105 9299"
+  website: "https://adan-ruiz-villalobos.netlify.app/"
+  social_networks:
+    - network: "LinkedIn"
+      username: "ing-adan-ruiz-villalobos"
+    - network: "GitHub"
+      username: "adnruiz"
+  custom_connections:
+    - placeholder: "LeetCode"
+      url: "https://leetcode.com/u/adnruiz"
+      fontawesome_icon: "code"
+    - placeholder: "Medium"
+      url: "https://medium.com/@adnruiz1"
+      fontawesome_icon: "newspaper"
+
+  sections:
+    summary:
+      - >
+        Ingeniero de Soporte Técnico con más de 3 años de experiencia conectando el
+        soporte técnico cara al cliente, el desarrollo backend y la infraestructura en
+        la nube y on-premise. Mi objetivo profesional central es consolidar mi trayectoria
+        como Ingeniero DevOps, aplicando mi profundo conocimiento en Linux, AWS, Terraform,
+        CI/CD y automatización personalizada (Go) para construir entornos resilientes y
+        altamente automatizados que mejoren directamente las operaciones de soporte, la
+        respuesta a incidentes y la estabilidad del sistema. Aporto experiencia práctica
+        en la resolución de problemas (troubleshooting) de APIs REST, consultas SQL
+        (múltiples tablas) y servicios en Docker. Actúo como primer punto de contacto
+        para clientes, diagnosticando problemas complejos, escalando a ingeniería y
+        documentando runbooks. Sólida experiencia en entornos financieros y B2B SaaS.
+        Inglés avanzado (C1) y español nativo.
+
+    experience:
+      - company: "LASEC"
+        position: "Especialista en Soporte Técnico e Ingeniero DevOps"
+        location: "Zacatecas, México (Proyectos en Argentina y Perú)"
+        start_date: "2025-02"
+        end_date: "present"
+        summary: >
+          Punto de contacto técnico para incidentes de clientes e infraestructura
+          on-premise. Responsable del triage, análisis de causa raíz, resolución de
+          problemas y escalamiento a ingeniería. Lidero implementaciones internacionales
+          (Argentina y Perú), pruebas post-instalación y automatización DevOps para
+          mejorar la estabilidad, seguridad y el tiempo medio de resolución (MTTR).
+        highlights:
+          - "Soporte al Cliente e Incidentes – Actué como primer punto de contacto para clientes a través de diversos canales. Realicé el triage, priorización y resolución de problemas técnicos complejos, escalando a ingeniería con logs detallados y pasos de reproducción."
+          - "Implementaciones Internacionales (Argentina y Perú) – Lideré el despliegue en sitio de sistemas on-premise. Ejecuté pruebas post-instalación exhaustivas (APIs, bases de datos, redes, respaldos) y entregué documentación técnica al equipo local del cliente."
+          - "Integración de APIs – Conecté sistemas on-premise con APIs REST para el consumo de catálogos de empleados, manejando autenticación, paginación y manejo de errores. Validé endpoints y payloads utilizando Postman."
+          - "Automatización y DevOps (Go) – Desarrollé scripts ejecutables en Go para automatizar respaldos cifrados de bases de datos, transferirlos a una NAS centralizada y verificar su integridad. También automaticé la creación de usuarios en Ubuntu y bloqueos dinámicos de puertos (bastion host)."
+          - "Optimización de Infraestructura y Servidores – Configuré redes (IP estática, VLANs, VPNs), firewalls (UFW/iptables) y endurecí servidores Linux (SSH). Implementé IaC con Terraform, Ansible y GitLab CI/CD sobre VMware ESXi, optimizando el rendimiento del servidor y las bases de datos."
+          - "Mejora de Procesos y Documentación – Reduje el MTTR mediante monitoreo proactivo (Wazuh, Node Exporter) y análisis de causa raíz. Creé guías de troubleshooting, runbooks y artículos para la base de conocimiento, mejorando la autosuficiencia del cliente."
+
+      - company: "Principal Financial Group"
+        position: "Desarrollador Backend (Arquitectura de Software y APIs)"
+        start_date: "2024-05"
+        end_date: "2025-02"
+        summary: >
+          Lideré el diseño, implementación y soporte de APIs estratégicas utilizando
+          .NET Core y AWS en un entorno financiero y ágil remoto.
+        highlights:
+          - "Diseñé y construí APIs REST con .NET Core 6+ (Clean Architecture, CQRS). Escribí y optimicé consultas SQL avanzadas para validación de datos y resolución de problemas."
+          - "Integré sistemas heredados y bases de datos relacionales (PostgreSQL/RDS) y NoSQL (DynamoDB). Documenté APIs con Swagger/OpenAPI y validé endpoints con Postman."
+          - "Diseñé servicios serverless (AWS Lambda, API Gateway) y configuré VPCs privadas, IAM y Security Groups."
+          - "Automaticé despliegues con GitHub Actions (CI/CD) e Infraestructura como Código usando Terraform."
+          - "Coordiné equipos remotos vía Jira/Confluence, entregando el 100% de las funcionalidades comprometidas por sprint."
+
+      - company: "Waddi"
+        position: "Desarrollador Backend y DevOps (API y Nube)"
+        start_date: "2022-10"
+        end_date: "2024-02"
+        summary: >
+          Miembro del equipo fundador. Lideré el desarrollo de la primera versión de la
+          API web (Node.js y AWS), contribuyendo a ganar el 1er lugar en LGPMEEK Roma 2023.
+        highlights:
+          - "Diseñé y desarrollé APIs REST de alta disponibilidad con Node.js y AWS, logrando un 99.9% de disponibilidad."
+          - "Brindé soporte en la integración de APIs con equipos de frontend (React/Vue), validando endpoints y payloads con Postman y documentando flujos técnicos para un equipo distribuido."
+          - "Gestioné tareas y código en un equipo distribuido usando Jira y BitBucket bajo metodología SCRUM."
+
+    education:
+      - institution: "Instituto Tecnológico Superior de Jerez"
+        area: "Ingeniería en Sistemas Computacionales"
+        degree: "Ingeniería"
+        start_date: "2016-08"
+        end_date: "2022-11"
+        location: "Jerez, Zacatecas, México"
+
+      - institution: "CETis 114"
+        area: "Programación"
+        degree: "Técnico"
+        start_date: "2013-08"
+        end_date: "2016-07"
+        location: "Jerez, Zacatecas, México"
+
+    skills:
+      - label: "Idiomas"
+        details: "Español (Nativo), Inglés (C1 - Avanzado)"
+
+      - label: "Ingeniería de Soporte"
+        details: >
+          Soporte al cliente (email/chat/teléfono), Triage de incidentes, Troubleshooting de APIs REST, 
+          Análisis de logs, Análisis de causa raíz (RCA), Escalamiento a ingeniería, 
+          Pruebas post-instalación, Runbooks y documentación técnica.
+
+      - label: "APIs y Herramientas"
+        details: >
+          REST APIs, Postman, Swagger/OpenAPI, Manejo de autenticación y paginación, 
+          Mapeo de payloads, Manejo de errores y reintentos.
+
+      - label: "Bases de Datos"
+        details: >
+          SQL Server, MySQL, PostgreSQL, Redis, RethinkDB, MongoDB, DynamoDB, GraphQL, 
+          Sequelize ORM. Consultas SQL (joins, subconsultas, múltiples tablas), Respaldos y Restauración, Optimización.
+
+      - label: "Backend y Arquitectura"
+        details: >
+          Go (Golang), C# (.NET Core), JavaScript/Node.js, TypeScript, Python, 
+          Clean Architecture, CQRS, Microservicios, Principios SOLID.
+
+      - label: "DevOps e Infraestructura"
+        details: >
+          AWS (EC2, Lambda, S3, RDS, DynamoDB, API Gateway), Terraform, Ansible, 
+          GitLab CI/CD, GitHub Actions, VMware ESXi, Docker, Linux (Ubuntu Server), Bash.
+
+      - label: "Seguridad y Redes"
+        details: >
+          UFW/iptables, OpenSSL/TLS, Passbolt, Wazuh, Node Exporter, VPNs, VLANs, 
+          Endurecimiento de SSH, Control de acceso (Bastion host), RAID, iDRAC, Jira, Git.
