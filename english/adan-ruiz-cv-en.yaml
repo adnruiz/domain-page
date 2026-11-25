@@ -1,0 +1,129 @@
+cv:
+  name: "Adan Ruiz Villalobos"
+  headline: "Technical Support Engineer | Backend & DevOps | REST APIs, SQL, Linux, AWS"
+  location: "Guadalupe, Zacatecas, México - Open to immediate relocation"
+  email: "adnruiz1@gmail.com"
+  phone: "494 105 9299"
+  website: "https://adan-ruiz-villalobos.netlify.app/"
+  social_networks:
+    - network: "LinkedIn"
+      username: "ing-adan-ruiz-villalobos"
+    - network: "GitHub"
+      username: "adnruiz"
+  custom_connections:
+    - placeholder: "LeetCode"
+      url: "https://leetcode.com/u/adnruiz"
+      fontawesome_icon: "code"
+    - placeholder: "Medium"
+      url: "https://medium.com/@adnruiz1"
+      fontawesome_icon: "newspaper"
+
+  sections:
+    summary:
+      - >
+        Technical Support Engineer with 4+ years of experience bridging customer-facing 
+        technical support, backend development, and cloud/on-premise infrastructure. 
+        My core career objective is to consolidate my path as a DevOps Engineer, applying 
+        my deep knowledge of Linux, AWS, Terraform, Docker, Kubernetes CI/CD, and custom 
+        automation (Go) to build resilient, highly automated environments that directly 
+        improve support operations, incident response, and system stability. I bring hands-on 
+        experience troubleshooting REST APIs, multi-table SQL queries, and Dockerized services, 
+        acting as the first point of contact for customers, diagnosing complex issues, 
+        escalating to engineering, and documenting runbooks. Strong background in 
+        financial and B2B SaaS environments. Advanced English (C1) and native Spanish.
+
+    experience:
+      - company: "Becker LASEC Technology Systems"
+        position: "Technical Support Specialist & DevOps Engineer"
+        location: "Zacatecas, Mexico (Projects in Argentina & Peru)"
+        start_date: "2025-02"
+        end_date: "present"
+        summary: >
+          Technical point of contact for customer and on-premise infrastructure
+          incidents. Responsible for triage, root-cause analysis, issue resolution, and
+          escalation to engineering. Lead international implementations (Argentina and
+          Peru), post-installation testing, and DevOps automation to improve stability,
+          security, and mean time to resolution (MTTR).
+        highlights:
+          - "Customer Support & Incidents – Served as the first point of contact for customers via various channels. Triaged, prioritized, and resolved complex technical issues, escalating to engineering with detailed logs and reproduction steps."
+          - "International Implementations (Argentina & Peru) – Led on-site deployments of on-premise systems. Executed comprehensive post-installation testing (APIs, databases, networking, backups) and delivered technical documentation to the customer's local team."
+          - "API Integration – Connected on-premise systems with REST APIs to consume employee catalogs, handling authentication, pagination, and error handling. Validated endpoints and payloads using Postman."
+          - "Automation & DevOps (Go) – Developed executable Go scripts to automate encrypted database backups, transfer them to a centralized NAS, and verify integrity. Also automated Ubuntu user creation and dynamic port blocking (bastion host)."
+          - "Infrastructure & Server Optimization – Configured networks (static IP, VLANs, VPNs), firewalls (UFW/iptables), and hardened Linux servers (SSH). Implemented IaC with Terraform, Ansible, and GitLab CI/CD on VMware ESXi, optimizing server and database performance."
+          - "Process Improvement & Documentation – Reduced MTTR through proactive monitoring (Wazuh, Node Exporter) and root-cause analysis. Created troubleshooting guides, runbooks, and knowledge-base articles, improving customer self-sufficiency."
+
+      - company: "Principal Financial Group"
+        position: "Backend Developer (Software Architecture & APIs)"
+        start_date: "2024-05"
+        end_date: "2025-02"
+        summary: >
+          Led the design, implementation, and support of strategic APIs using .NET Core
+          and AWS in a remote agile financial environment.
+        highlights:
+          - "Designed and built REST APIs with .NET Core 6+ (Clean Architecture, CQRS). Wrote and optimized advanced SQL queries for data validation and troubleshooting."
+          - "Integrated legacy systems with relational databases (PostgreSQL/RDS) and NoSQL (DynamoDB). Documented APIs with Swagger/OpenAPI and validated endpoints with Postman."
+          - "Designed serverless services (AWS Lambda, API Gateway) and configured private VPCs, IAM, and Security Groups."
+          - "Automated deployments with GitHub Actions (CI/CD) and Infrastructure as Code using Terraform."
+          - "Coordinated remote teams via Jira/Confluence, delivering 100% of committed features per sprint."
+
+      - company: "Waddi"
+        position: "Backend & DevOps Developer (API & Cloud)"
+        start_date: "2022-10"
+        end_date: "2024-02"
+        summary: >
+          Founding team member. Led the development of the first version of the web API
+          (Node.js and AWS), contributing to winning 1st place at LGPMEEK Rome 2023.
+        highlights:
+          - "Designed and developed high-availability REST APIs with Node.js and AWS, achieving 99.9% availability."
+          - "Supported API integration with frontend teams (React/Vue), validating endpoints and payloads with Postman and documenting technical flows for a distributed team."
+          - "Managed tasks and code in a distributed team using Jira and BitBucket under SCRUM methodology."
+
+    education:
+      - institution: "Instituto Tecnológico Superior de Jerez"
+        area: "Computer Systems Engineering"
+        degree: "Bachelor's Degree"
+        start_date: "2016-08"
+        end_date: "2022-11"
+        location: "Jerez, Zacatecas, Mexico"
+
+      - institution: "CETis 114"
+        area: "Programming"
+        degree: "Technical Degree"
+        start_date: "2013-08"
+        end_date: "2016-07"
+        location: "Jerez, Zacatecas, Mexico"
+
+    skills:
+      - label: "Languages"
+        details: "Spanish (Native), English (C1 - Advanced)"
+
+      - label: "Support Engineering"
+        details: >
+          Customer-facing support (email/chat/phone), Incident triage, REST API troubleshooting, 
+          Log analysis, Root-cause analysis (RCA), Escalation to engineering, 
+          Post-installation testing, Runbooks and technical documentation.
+
+      - label: "APIs & Tools"
+        details: >
+          REST APIs, Postman, Swagger/OpenAPI, Authentication and pagination handling, 
+          Payload mapping, Error handling and retries.
+
+      - label: "Databases"
+        details: >
+          SQL Server, MySQL, PostgreSQL, Redis, RethinkDB, MongoDB, DynamoDB, GraphQL, 
+          Sequelize ORM. SQL queries (joins, subqueries, multi-table), Backups and Restore, Optimization.
+
+      - label: "Backend & Architecture"
+        details: >
+          Go (Golang), C# (.NET Core), JavaScript/Node.js, TypeScript, Python, 
+          Clean Architecture, CQRS, Microservices, SOLID principles.
+
+      - label: "DevOps & Infrastructure"
+        details: >
+          AWS (EC2, Lambda, S3, RDS, DynamoDB, API Gateway), Terraform, Ansible, 
+          GitLab CI/CD, GitHub Actions, VMware ESXi, Docker, Linux (Ubuntu Server), Bash.
+
+      - label: "Security & Networking"
+        details: >
+          UFW/iptables, OpenSSL/TLS, Passbolt, Wazuh, Node Exporter, VPNs, VLANs, 
+          SSH hardening, Access control (Bastion host), RAID, iDRAC, Jira, Git.
